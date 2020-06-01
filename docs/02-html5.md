@@ -80,7 +80,6 @@ sample
 
 ```html
 <section>
-  ß
   <header id="header01" class="dafaultHeader">
     <h1>Title of a section</h1>
   </header>
