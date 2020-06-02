@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline test</title>
+  <style>
+    .block {
+      background-color: red;
+      width: 50px;
+      height: 50px;
+      border:2px solid black;
+      display: block; /* 없으면 default 로 block 됨 */
+    }
+    .inline-block {
+      background-color: green;
+      width: 50px;
+      height: 50px;
+      border:2px solid black;
+      display: inline-block;
+    }
+    .inline {
+      background-color: blanchedalmond;
+      width: 50px;
+      height: 50px;
+      border:2px solid black;
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="inline-block"></div>
+  <div class="inline-block"></div>
+  <br>
+  <span class="inline">in</span>
+  <span class="inline">li</span>
+  <span class="inline">ne</span>
+</body>
+</html>
